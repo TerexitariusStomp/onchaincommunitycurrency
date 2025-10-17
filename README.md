@@ -4,6 +4,13 @@
 
 (A) Community participants mint/redeem (B) Caiana tokens backed by BRL reserves held at (D) the bank. Activity is recorded on the blockchain and can be inspected (C) for transparency. Users hold and use tokens in (E) wallets.
 
+![Messaging and Transfer Flow](assets/messaging-flow.png)
+
+- A: Sender wallet
+- B: Recipient wallet
+- C: WhatsApp interface and on-chain token actions via the backend
+- Blockchain: records token transfers between wallets
+
 This repository contains the code and configuration for Caiana — a community currency system built on Celo — and supporting tooling to launch, operate, and document a bank‑backed, on‑chain local currency.
 
 ## What’s Inside
