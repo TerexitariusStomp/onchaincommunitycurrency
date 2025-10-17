@@ -6,7 +6,8 @@ flowchart LR
   B --> Chain[Blockchain]
   B --> C[Public Auditing]
   B --> D[Bank Reserves (BRL)]
-  E[Wallets] -. hold/use .-> B
+  E[Wallets]
+  E -. "hold/use" .-> B
 ```
 
 (A) Community participants mint/redeem (B) Caiana tokens backed by BRL reserves held at (D) the bank. Activity is recorded on the blockchain and can be inspected (C) for transparency. Users hold and use tokens in (E) wallets.
