@@ -61,6 +61,7 @@ In a production setting, people would transact on Web3 with the community curren
 
 - Paymaster (Pimlico on Celo) for sponsored, free end-user transactions.
 - Public transparency portal: an easy-to-read web frontend for the general public showing live BRL reserves, circulating CANA supply, and recent changes (with charts), sourced from bank attestations and on-chain data.
+  - Example: https://bancodacidade.com/transparencia-banco-de-aracoiaba/ — a model that would be great to update dynamically with live data.
 - Geofenced boundaries that only allow transactions within the community’s defined area.
 - Holder cap: at most 10,000 wallet addresses can hold the community currency.
 - Governance interfaces, potentially coordinated through WhatsApp.
