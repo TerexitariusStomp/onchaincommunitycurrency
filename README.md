@@ -53,6 +53,10 @@ This repository contains the code and configuration for Caiana — a community c
 
 The amount of Caiana (CANA) minted corresponds to BRL reserves and is evidenced publicly via the Blockscout link above. See `stablecoin/README.md` for details.
 
+## Production UX
+
+In a production setting, people would transact on Web3 with the community currency via WhatsApp or the community’s already established application. The blockchain/Web3 layer is abstracted behind the scenes, so users can send and receive value without needing to know it is Web3.
+
 ## Development Overview
 
 - Prereqs typically include Node.js (LTS), pnpm/yarn/npm, and for contracts Hardhat/Foundry. See subproject READMEs for exact versions and steps.
