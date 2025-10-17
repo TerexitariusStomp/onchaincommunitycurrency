@@ -1,10 +1,22 @@
 # Onchain Community Currency Monorepo
 
-![System Overview Diagram](assets/system-overview.png)
+```mermaid
+flowchart LR
+  A[Community Participants] --> B[(CANA Token)]
+  B --> Chain[Blockchain]
+  B --> C[Public Auditing]
+  B --> D[Bank Reserves (BRL)]
+  E[Wallets] -. hold/use .-> B
+```
 
 (A) Community participants mint/redeem (B) Caiana tokens backed by BRL reserves held at (D) the bank. Activity is recorded on the blockchain and can be inspected (C) for transparency. Users hold and use tokens in (E) wallets.
 
-![Messaging and Transfer Flow](assets/messaging-flow.png)
+```mermaid
+flowchart LR
+  A[Wallet A (Sender)] --> Chain[Blockchain]
+  Chain --> B[Wallet B (Recipient)]
+  C[WhatsApp + CANA] --> Chain
+```
 
 - A: Sender wallet
 - B: Recipient wallet
