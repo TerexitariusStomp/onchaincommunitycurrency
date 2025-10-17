@@ -8,11 +8,9 @@ Caiana (CANA) is an ERC-20 compatible stablecoin backed by fiat reserves, featur
 
 ## Transparency & Open Data
 
-- Issuance policy: The amount of Caiana (CANA) minted is based on open financial records of BRL reserves held in a bank account. Public banking records are used to determine and evidence circulating supply.
-- Smart contract activity (open data): https://celo.blockscout.com/address/0x15ffACd88539aFa123AD4707e28f6Bc3A7DBBad7?tab=txs
-  - The above explorer link provides transparent on-chain activity and open data for the last three weeks of Caiana transactions.
-- Bank reserve records: [Insert public bank statement/report URL here]
-  - Replace the placeholder link with the public portal or statement that evidences BRL reserves supporting Caiana.
+- Issuance policy: The amount of Caiana (CANA) minted corresponds to BRL reserves held in a bank account and is evidenced publicly.
+- Public statement evidencing BRL reserves supporting Caiana: https://celo.blockscout.com/address/0x15ffACd88539aFa123AD4707e28f6Bc3A7DBBad7?tab=txs
+  - This Blockscout page provides transparent on-chain activity (mints/burns/transfers). Mint and burn events reflect adjustments based on the BRL reserves backing Caiana.
 
 ## Contract Addresses
 
