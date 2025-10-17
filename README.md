@@ -2,21 +2,30 @@
 
 ```mermaid
 flowchart LR
-  A[Community Participants] --> B[(CANA Token)]
-  B --> Chain[Blockchain]
-  B --> C[Public Auditing]
-  B --> D[Bank Reserves (BRL)]
-  E[Wallets]
-  E -. "hold/use" .-> B
+  A[Community Participants];
+  B[(CANA Token)];
+  Chain[Blockchain];
+  C[Public Auditing];
+  D[Bank Reserves BRL];
+  E[Wallets];
+  A --> B;
+  B --> Chain;
+  B --> C;
+  B --> D;
+  E -. "hold/use" .-> B;
 ```
 
 (A) Community participants mint/redeem (B) Caiana tokens backed by BRL reserves held at (D) the bank. Activity is recorded on the blockchain and can be inspected (C) for transparency. Users hold and use tokens in (E) wallets.
 
 ```mermaid
 flowchart LR
-  A[Wallet A (Sender)] --> Chain[Blockchain]
-  Chain --> B[Wallet B (Recipient)]
-  C[WhatsApp + CANA] --> Chain
+  A[Wallet A Sender];
+  B[Wallet B Recipient];
+  C[WhatsApp and CANA];
+  Chain[Blockchain];
+  A --> Chain;
+  Chain --> B;
+  C --> Chain;
 ```
 
 - A: Sender wallet
