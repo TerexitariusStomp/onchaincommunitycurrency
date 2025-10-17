@@ -1,5 +1,9 @@
 # Onchain Community Currency Monorepo
 
+![System Overview Diagram](assets/system-overview.png)
+
+(A) Community participants mint/redeem (B) Caiana tokens backed by BRL reserves held at (D) the bank. Activity is recorded on the blockchain and can be inspected (C) for transparency. Users hold and use tokens in (E) wallets.
+
 This repository contains the code and configuration for Caiana — a community currency system built on Celo — and supporting tooling to launch, operate, and document a bank‑backed, on‑chain local currency.
 
 ## What’s Inside
@@ -37,4 +41,3 @@ The amount of Caiana (CANA) minted corresponds to BRL reserves and is evidenced 
 
 - Each subfolder contains its own README and scripts where applicable.
 - This repo tracks both application code (UI/API) and on‑chain components for a cohesive, auditable system.
-
