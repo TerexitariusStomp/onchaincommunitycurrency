@@ -1,5 +1,11 @@
 # Brazil Community Currency System
 
+## Public Availability
+
+The Community Currency Launcher is publicly available at:
+
+https://brazil-community-currency.vercel.app/
+
 A production-ready blockchain-based community currency system that integrates with Brazilian banking infrastructure via Pluggy API. This system enables communities to create and manage their own digital currencies backed by real bank accounts.
 
 ## 🌟 Features
