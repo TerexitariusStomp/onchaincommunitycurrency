@@ -60,13 +60,17 @@ In a production setting, people would transact on Web3 with the community curren
 ## Future Improvements
 
 - Paymaster (Pimlico on Celo) for sponsored, free end-user transactions.
+- Public transparency portal: an easy-to-read web frontend for the general public showing live BRL reserves, circulating CANA supply, and recent changes (with charts), sourced from bank attestations and on-chain data.
 - Geofenced boundaries that only allow transactions within the community’s defined area.
 - Holder cap: at most 10,000 wallet addresses can hold the community currency.
 - Governance interfaces, potentially coordinated through WhatsApp.
+- NFT-linked compliance docs: Publish and reference required CADSOL/DCSOL/MTE-Senaes documentation via an NFT bound to the community currency, enabling public, tamper-evident verification of regulatory materials and versioning.
 
 ### Regulatory Context (Brazil, 2025)
 
 In 2025, under PL 4476/2023 and the CADSOL framework, any organization issuing or managing a community currency (Moeda Social) in Brazil must register as a solidarity economy enterprise through CADSOL, providing founding and governance documents, member lists, and proof of community activity. After receiving the DCSOL certificate, it must obtain MTE/Senaes authorization, submitting its statute, proof of Real-backed reserves (1:1 parity), a territorial and transparency plan, and technology compliance (for blockchain/DLT systems). Renewal every two years and periodic audits ensure reserve integrity and ongoing community participation within Brazil’s solidarity economy system.
+
+Planned enhancement: identify and attest these documents on-chain through an NFT linked to the community currency for public discoverability and proof of provenance.
 
 ## Development Overview
 
